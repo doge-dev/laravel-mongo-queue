@@ -13,5 +13,10 @@
     "require": {
         "jenssegers/mongodb": "*",
         "laravel/laravel": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DogeDev\\Queue\\": "src/"
+        }
     }
 }
