@@ -1,0 +1,17 @@
+{
+    "name": "doge-dev/laravel-mongo-queue",
+    "description": "Laravel Queue implementation for MongoDB",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marko Maletic",
+            "email": "maletic.marko@live.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "jenssegers/mongodb": "*",
+        "laravel/laravel": "*"
+    }
+}
