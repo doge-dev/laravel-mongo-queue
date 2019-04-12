@@ -5,7 +5,7 @@ Laravel Queues implementation for MongoDB
 
 Add the service provider in config/app.php:
 
-`DogeDev\MongodbQueueServiceProvider::class,`
+`DogeDev\Queue\MongodbQueueServiceProvider::class,`
 
 If you want to use MongoDB as your database backend, change the the driver in config/queue.php:
 
