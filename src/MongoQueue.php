@@ -68,6 +68,9 @@ class MongoQueue extends DatabaseQueue
         );
 
         if ($job) {
+            if (!is_object($job)) {
+                $job = (object) $job;
+            } 
             $job->id = $job->_id;
         }
 
