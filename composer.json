@@ -1,5 +1,5 @@
 {
-    "name": "doge-dev/laravel-mongo-queue",
+    "name": "GeorgeHulpoi/laravel-mongo-queue",
     "description": "Laravel Queue implementation for MongoDB",
     "type": "library",
     "license": "MIT",
